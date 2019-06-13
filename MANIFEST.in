@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mturist *.css
+recursive-include mturist *.csv
+recursive-include mturist *.html
+recursive-include mturist *.ico
+recursive-include mturist *.js
+recursive-include mturist *.json
+recursive-include mturist *.md
+recursive-include mturist *.png
+recursive-include mturist *.py
+recursive-include mturist *.svg
+recursive-include mturist *.txt
+recursive-exclude mturist *.pyc
